@@ -1,5 +1,5 @@
 import classes from "./Checkout.module.css";
-import { useRef, useState } from "react";
+
 import useInput from "../../hooks/use-input";
 
 const isEmpty = (value) => value.trim() === "";
